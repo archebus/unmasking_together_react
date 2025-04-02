@@ -1,8 +1,38 @@
 /* Import fonts (we're using montserrat since it's available on Google Fonts) */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
 
-/* For Loubag, you'll need to host this font or use a custom font alternative */
-/* This is a placeholder if you need to add @font-face for Loubag */
+/* Loubag Font */
+@font-face {
+  font-family: 'Loubag';
+  src: url('/fonts/Loubag-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Loubag';
+  src: url('/fonts/Loubag-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Loubag';
+  src: url('/fonts/Loubag-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Loubag';
+  src: url('/fonts/Loubag-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
 
 * {
   margin: 0;

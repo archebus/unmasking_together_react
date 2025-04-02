@@ -18,7 +18,7 @@
   /* Variant styles */
   .btn-primary {
     background-color: var(--primary-orange);
-    color: var(--text-dark);
+    color: var(--white);
     border-color: var(--primary-orange);
   }
   
@@ -36,8 +36,8 @@
   }
   
   .btn-secondary:hover, .btn-secondary:focus {
-    background-color: transparent;
-    color: var(--secondary-navy);
+    background-color: var(--complementary-teal);
+    border-color: var(--complementary-teal);
     transform: translateY(-2px);
     box-shadow: var(--shadow-md);
   }

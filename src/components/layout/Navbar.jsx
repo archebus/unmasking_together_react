@@ -22,12 +22,9 @@ const Navbar = () => {
         </div>
 
         <ul className={`navbar-links ${isMenuOpen ? 'active' : ''}`}>
-          <li><a href="/">Home</a></li>
           <li><a href="/about">About</a></li>
           <li><a href="/events">What's On</a></li>
           <li><a href="/work-with-me">Work With Me</a></li>
-          <li><a href="/resources">Resources</a></li>
-          <li><a href="/contact">Contact</a></li>
         </ul>
       </div>
     </nav>

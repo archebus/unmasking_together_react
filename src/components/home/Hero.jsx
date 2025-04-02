@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-container">
         <div className="hero-content">
-          <h1 className="hero-title">Unmasking Together</h1>
+          <h1 className="hero-title text-highlight">Unmasking Together</h1>
           <h2 className="hero-subtitle">Embrace your authentic self</h2>
           <p className="hero-text">
             A neuro-affirming counselling space dedicated to supporting neurodivergent individuals in 
@@ -17,7 +17,7 @@ const Hero = () => {
             <Button 
               label="Learn More" 
               link="/about" 
-              variant="primary"
+              variant="secondary"
             />
             <Button 
               label="Upcoming Events" 
@@ -27,9 +27,8 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image-container">
-          <div className="hero-image">
-            {/* Placeholder image - replace with actual image */}
-            <div className="placeholder-img"></div>
+        <div className="hero-image">
+            <img src="/assets/images/hero.jpg" alt="Sarah Callaghan" />
           </div>
         </div>
       </div>

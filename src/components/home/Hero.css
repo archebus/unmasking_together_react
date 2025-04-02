@@ -1,5 +1,5 @@
 .hero {
-    background-color: var(--light-orange);
+    background-color: var(--primary-orange);
     padding: calc(var(--spacing-xxl) * 2) 0;
     overflow: hidden;
     margin-top: 60px; /* To account for the fixed navbar */
@@ -23,23 +23,34 @@
   .hero-title {
     font-family: var(--font-primary);
     font-size: 3.5rem;
-    color: var(--secondary-navy);
+    color: var(--white);
     margin-bottom: var(--spacing-sm);
     line-height: 1.1;
   }
   
+  .text-highlight {
+    background-color: var(--primary-contrast);
+    color: var(--white);
+    padding: 0.1em 0.4em;
+    display: inline-block;
+    margin: 0.1em 0;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+  }
+
   .hero-subtitle {
     font-family: var(--font-secondary);
     font-size: 1.75rem;
-    color: var(--complementary-orange);
+    color: var(--white);
     margin-bottom: var(--spacing-md);
+    margin-top: var(--spacing-md);
     font-weight: 500;
   }
   
   .hero-text {
     font-family: var(--font-body);
     font-size: 1.125rem;
-    color: var(--text-dark);
+    color: var(--white);
     margin-bottom: var(--spacing-xl);
     line-height: 1.6;
   }
