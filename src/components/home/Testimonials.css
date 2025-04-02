@@ -1,0 +1,121 @@
+.testimonials {
+    padding: calc(var(--spacing-xxl) * 1.5) 0;
+    background-color: var(--light-blue);
+  }
+  
+  .testimonial-carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: var(--white);
+    border-radius: var(--border-radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+    position: relative;
+  }
+  
+  .testimonial-content {
+    text-align: center;
+    min-height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .quote-mark {
+    font-family: var(--font-primary);
+    font-size: 4rem;
+    color: var(--primary-orange);
+    line-height: 1;
+    margin-bottom: -20px;
+  }
+  
+  .testimonial-quote {
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    color: var(--text-dark);
+    line-height: 1.6;
+    margin-bottom: var(--spacing-lg);
+    font-style: italic;
+  }
+  
+  .testimonial-author {
+    margin-top: auto;
+  }
+  
+  .author-name {
+    font-family: var(--font-secondary);
+    font-weight: 600;
+    font-size: 1.125rem;
+    color: var(--secondary-navy);
+    margin-bottom: 0;
+  }
+  
+  .author-role {
+    font-family: var(--font-body);
+    font-size: 0.875rem;
+    color: var(--text-dark);
+    opacity: 0.7;
+    margin-top: 2px;
+  }
+  
+  .testimonial-controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: var(--spacing-lg);
+  }
+  
+  .control-btn {
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: var(--secondary-navy);
+    cursor: pointer;
+    transition: color 0.3s ease;
+    padding: var(--spacing-sm);
+  }
+  
+  .control-btn:hover {
+    color: var(--primary-orange);
+  }
+  
+  .indicators {
+    display: flex;
+    gap: 8px;
+    margin: 0 var(--spacing-lg);
+  }
+  
+  .indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--border-light);
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    padding: 0;
+  }
+  
+  .indicator.active {
+    background-color: var(--primary-orange);
+  }
+  
+  @media (max-width: 768px) {
+    .testimonial-quote {
+      font-size: 1.125rem;
+    }
+    
+    .testimonial-carousel {
+      padding: var(--spacing-lg);
+    }
+    
+    .testimonial-content {
+      min-height: 260px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .testimonial-content {
+      min-height: 300px;
+    }
+  }
